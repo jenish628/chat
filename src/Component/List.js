@@ -4,12 +4,12 @@ const List =()=>{
     return(
         <div className="list"> 
         <>
-        <h2>CHAT-LIST </h2>
-        <ol>
-            <h3> <li>jenish ghimire </li>
-            <li>jenish ghimire </li>
-            <li>jenish ghimire </li>
-            <li>jenish ghimire </li>
+        <h2 className="lists">CHAT-LIST </h2>
+        <h3>
+            <li className="lists">jenish ghimire </li>
+            <li className="lists">jenish ghimire </li>
+            <li className="lists">jenish ghimire </li>
+            <li className="lists">jenish ghimire </li>
             <li>jenish ghimire </li>
             <li>jenish ghimire </li>
             <li>jenish ghimire </li>
@@ -26,8 +26,8 @@ const List =()=>{
             <li>jenish ghimire </li>
             <li>jenish ghimire </li>        
             <li>jenish ghimire </li>         
-            </h3>
-        </ol>
+        </h3>    
+       
         </>
         </div>
     )

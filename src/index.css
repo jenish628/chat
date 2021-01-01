@@ -6,16 +6,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: green;
-
+  background-color:green !important
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-#root{
- background-color: green;
 }
 
 /* main */
@@ -35,13 +32,21 @@ code {
   
 }
 .list{
-
-  float: left;
-  min-height: 650px;
-  min-width: 400px;
-  text-align: center;
+ text-align: center;
  
 }
+.lists{
+  margin-bottom: 5px;
+  padding: 5px;
+  box-shadow: -8px 8px 8px green;
+
+}
+.li{
+  margin-bottom: 5px;
+  padding: 5px;
+  box-shadow: -8px 8px 8px green;
+}
+
 .msg{
   text-align: center;
   float: right;
@@ -58,10 +63,19 @@ code {
 }
 
 .receive{
-  float:left
+  float:left;
+  padding:8px ;
+  background: #ccc;
+  box-shadow: -8px -9px 12px green;
+
+  
 }
 .sent{
   float:right;
+  padding: 8px;
+  background: #ccc;
+  box-shadow: 8px 9px 12px green;
+  margin-top: 15px;
 }
 
 
