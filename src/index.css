@@ -1,13 +1,70 @@
 body {
-  margin: 0;
+  
+  margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: green;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root{
+ background-color: green;
+}
+
+/* main */
+  
+
+.srch{
+  margin: 5px 400px ;
+  border: 3px solid blue;
+  
+}
+
+
+.lm{
+  background-color:#5b42eb;
+  margin-bottom: 0px;
+  
+  
+}
+.list{
+
+  float: left;
+  min-height: 650px;
+  min-width: 400px;
+  text-align: center;
+ 
+}
+.msg{
+  text-align: center;
+  float: right;
+  background-color: #5d4deb;
+  min-width: 100%;
+  min-height: 650px;
+  padding: 0px 100px;
+  
+  
+}
+.chat{
+  border-top: 5px double blue;
+   
+}
+
+.receive{
+  float:left
+}
+.sent{
+  float:right;
+}
+
+
+ 
+  
+
