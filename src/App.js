@@ -8,10 +8,9 @@ import Dashboard from './Component/Dashboard'
 function App() {
   return (
     <>
-    <Main/>
-      
-    
-      
+       
+    <Main/> 
+        
     </>
   )
 };
