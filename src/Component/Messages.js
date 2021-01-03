@@ -16,9 +16,7 @@ const Message = () => {
                 </>
 
             </div>
-            <div className="text">
-                This is where u write the TEXT.
-            </div>
+           
         </>
     )
 }

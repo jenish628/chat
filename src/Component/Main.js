@@ -24,8 +24,10 @@ const onSearch = value => console.log(value);
 const Main = () => {
   return (
     <>
-   
-      <div className="srch">
+     
+      
+        
+            <div className="srch">
         
           <Search 
           className="search-input"
@@ -35,6 +37,7 @@ const Main = () => {
           suffix={suffix}
           onSearch={onSearch}
         />
+   
       </div>
       
       <div className="lm"> 

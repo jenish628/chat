@@ -5,7 +5,7 @@ const List =()=>{
         <div className="list"> 
         <>
         <h2 className="lists">CHAT-LIST </h2>
-        <div className="scroll">
+       
         <h3>
             <li className="lists">jenish ghimire </li>
             <li className="lists">jenish ghimire </li>
@@ -20,14 +20,11 @@ const List =()=>{
             <li className="lists">jenish ghimire </li>
             <li className="lists">jenish ghimire </li>
             <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li> 
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li> 
-            <li className="lists">jenish ghimire </li>
+        
+        
           
         </h3>    
-        </div>
+       
         </>
         </div>
     )
