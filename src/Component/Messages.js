@@ -1,4 +1,6 @@
 import React from 'react';
+import ChatNotifier from './ChatNotifier';
+
 
 const Message = () => {
     return (
@@ -7,16 +9,20 @@ const Message = () => {
                 <>
                     <h2>MESSAGES</h2>
                     <div className="receive">
-                        This Message is RECEIVED. A national flag is a flag that represents and symbolizes a given nation.
-                </div>
-                    <div className="sent">
-                        This Message is SENT. A national flag is a flag that represents and symbolizes a given nation.
+                        <p>This Message is RECEIVED. A national flag is a flag that represents and symbolizes a given nation.</p>
 
-                 </div>
+                    </div>
+
+                    <div className="sent">
+                        <p> This Message is SENT. A national flag is a flag that represents and symbolizes a given nation.</p>
+                        <ChatNotifier sent seen/>
+                    </div>
+
+
                 </>
 
             </div>
-           
+
         </>
     )
 }

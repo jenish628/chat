@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:green !important
+  background-color:green !important;
 }
 
 
@@ -16,7 +16,6 @@ code {
 }
 
 /* main */
-  
 
 .srch{
   margin: 5px 400px ;
@@ -38,17 +37,12 @@ code {
 
 }
 
-.lists{
+.list .lists li {
   margin-bottom: 5px;
   padding: 5px;
   box-shadow: -8px 8px 8px green;
 
 
-}
-.li{
-  margin-bottom: 5px;
-  padding: 5px;
-  box-shadow: -8px 8px 8px green;
 }
 
 .msg{
@@ -75,6 +69,7 @@ code {
 
   
 }
+
 .sent{
   float:right;
   padding: 8px;
@@ -99,3 +94,17 @@ code {
 .dashtext{
   text-align: center;
 }
+
+/* -- Message sent-receive buttons-- */
+.sented{
+  float:right !important;
+  height:20px;
+  width: 20px;
+  border:2px solid green;
+  border-radius: 50%;
+ } 
+
+ .seen {
+   background: #baee77
+ }
+ 

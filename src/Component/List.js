@@ -4,23 +4,50 @@ const List =()=>{
     return(
         <div className="list"> 
         <>
-        <h2 className="lists">CHAT-LIST </h2>
+        <h2> CHAT-LIST </h2>
        
         <h3>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-            <li className="lists">jenish ghimire </li>
-        
+            <ul className ="lists">
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            <li >jenish ghimire </li>
+            </ul>
         
           
         </h3>    

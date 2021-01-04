@@ -24,9 +24,6 @@ const onSearch = value => console.log(value);
 const Main = () => {
   return (
     <>
-     
-      
-        
             <div className="srch">
         
           <Search 
